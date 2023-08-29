@@ -33,6 +33,8 @@ export default function aboutMe(){
             Im currently living in Fayetteville Arkansas 
             I am a very hardworking person who is very passionate about helping others.
        </p>
+
        </div>
+    
    );
 }

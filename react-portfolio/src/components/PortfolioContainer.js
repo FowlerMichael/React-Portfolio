@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './nav.js';
+import Footer from './Footer.js';
+
 import Projects from './pages/projects/projects.js';
 import About from './pages/about/aboutMe.js';
 import Resume from './pages/resume/resume.js';
@@ -29,6 +31,7 @@ export default function PortfolioContainer() {
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }

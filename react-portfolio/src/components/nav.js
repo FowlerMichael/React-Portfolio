@@ -1,24 +1,18 @@
 import React from 'react';
+import Header from './header';
 
-const Style = {
-  nav: {
+const styles = {
+  Header: {
     backgroundColor: '#2C3E50',
-    color: 'white',
     display: 'flex',
     justifyContent: 'space-between',
-    margin: '0',
-    padding: '0',
-
-  },
-  h1: {
-    fontSize: '',
   }
 }
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="nav-container" style={Style.nav}>
-    <h1> Michael Fowler</h1>
+    <div className="nav-container" style={styles.Header}>
+      <Header />
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
